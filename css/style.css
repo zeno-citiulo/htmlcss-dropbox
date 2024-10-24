@@ -207,45 +207,6 @@ img{
   margin-bottom: 55px;
 }
 
-/*
-.singol-card{
-  border: 1px solid lightgray;
-  width: 100%;
-  margin-top: 50px;
-}
-
-.section-team{
-  display: flex;
-  align-items: center;
-  width: 90%;
-  margin: 0 auto;
-  padding-top: 30px;
-}
-*/
-
-/*
-.section-team span{
-  background-color: #0061F9;
-  color: white;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-*/
-/*
-.team-con{
-  width: 100%;
-  margin-top: 50px;
-  border: 1px solid lightgray;
-}
-
-.flex-team{
-  display: flex;
-  width: 90%;
-}
-*/
-
 .cont-partner{
   display: flex;
   justify-content: center;
@@ -372,16 +333,21 @@ img{
 .right {
   display: flex;
   flex: 2;
-  border: 2px dashed white;
   color: white;
+  margin-top: 70px;
 }
 
 .column {
   flex: 1;
 }
 
+.column span{
+  font-size: 1.4rem;
+}
+
 .box-line{
   width: 70%;
+  margin-bottom: 50px;
 }
 
 .line {
@@ -427,4 +393,13 @@ img{
 
 .globe{
   margin-top: 25px;
+}
+
+.column ul li{
+  list-style-type: none;
+  line-height: 2rem;
+}
+
+.column ul li:first-child{
+  margin-top: 40px;
 }
